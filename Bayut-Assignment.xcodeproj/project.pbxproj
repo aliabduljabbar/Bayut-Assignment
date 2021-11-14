@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41E079962740F86B000C2759 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E079952740F86B000C2759 /* AppDelegate.swift */; };
+		41E079982740F86B000C2759 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E079972740F86B000C2759 /* SceneDelegate.swift */; };
+		41E0799A2740F86B000C2759 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E079992740F86B000C2759 /* ViewController.swift */; };
+		41E0799D2740F86B000C2759 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E0799B2740F86B000C2759 /* Main.storyboard */; };
+		41E0799F2740F86D000C2759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41E0799E2740F86D000C2759 /* Assets.xcassets */; };
+		41E079A22740F86D000C2759 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E079A02740F86D000C2759 /* LaunchScreen.storyboard */; };
+		41E079AD2740F86D000C2759 /* Bayut_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E079AC2740F86D000C2759 /* Bayut_AssignmentTests.swift */; };
+		41E079B72740F86D000C2759 /* Bayut_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E079B62740F86D000C2759 /* Bayut_AssignmentUITests.swift */; };
+		41E079B92740F86D000C2759 /* Bayut_AssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E079B82740F86D000C2759 /* Bayut_AssignmentUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41E079A92740F86D000C2759 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41E0798A2740F86B000C2759 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41E079912740F86B000C2759;
+			remoteInfo = "Bayut-Assignment";
+		};
+		41E079B32740F86D000C2759 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41E0798A2740F86B000C2759 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41E079912740F86B000C2759;
+			remoteInfo = "Bayut-Assignment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41E079922740F86B000C2759 /* Bayut-Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bayut-Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41E079952740F86B000C2759 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41E079972740F86B000C2759 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		41E079992740F86B000C2759 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		41E0799C2740F86B000C2759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41E0799E2740F86D000C2759 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41E079A12740F86D000C2759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41E079A32740F86D000C2759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41E079A82740F86D000C2759 /* Bayut-AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bayut-AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41E079AC2740F86D000C2759 /* Bayut_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bayut_AssignmentTests.swift; sourceTree = "<group>"; };
+		41E079B22740F86D000C2759 /* Bayut-AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bayut-AssignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41E079B62740F86D000C2759 /* Bayut_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bayut_AssignmentUITests.swift; sourceTree = "<group>"; };
+		41E079B82740F86D000C2759 /* Bayut_AssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bayut_AssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41E0798F2740F86B000C2759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E079A52740F86D000C2759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E079AF2740F86D000C2759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41E079892740F86B000C2759 = {
+			isa = PBXGroup;
+			children = (
+				41E079942740F86B000C2759 /* Bayut-Assignment */,
+				41E079AB2740F86D000C2759 /* Bayut-AssignmentTests */,
+				41E079B52740F86D000C2759 /* Bayut-AssignmentUITests */,
+				41E079932740F86B000C2759 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41E079932740F86B000C2759 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41E079922740F86B000C2759 /* Bayut-Assignment.app */,
+				41E079A82740F86D000C2759 /* Bayut-AssignmentTests.xctest */,
+				41E079B22740F86D000C2759 /* Bayut-AssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41E079942740F86B000C2759 /* Bayut-Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				41E079952740F86B000C2759 /* AppDelegate.swift */,
+				41E079972740F86B000C2759 /* SceneDelegate.swift */,
+				41E079992740F86B000C2759 /* ViewController.swift */,
+				41E0799B2740F86B000C2759 /* Main.storyboard */,
+				41E0799E2740F86D000C2759 /* Assets.xcassets */,
+				41E079A02740F86D000C2759 /* LaunchScreen.storyboard */,
+				41E079A32740F86D000C2759 /* Info.plist */,
+			);
+			path = "Bayut-Assignment";
+			sourceTree = "<group>";
+		};
+		41E079AB2740F86D000C2759 /* Bayut-AssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				41E079AC2740F86D000C2759 /* Bayut_AssignmentTests.swift */,
+			);
+			path = "Bayut-AssignmentTests";
+			sourceTree = "<group>";
+		};
+		41E079B52740F86D000C2759 /* Bayut-AssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41E079B62740F86D000C2759 /* Bayut_AssignmentUITests.swift */,
+				41E079B82740F86D000C2759 /* Bayut_AssignmentUITestsLaunchTests.swift */,
+			);
+			path = "Bayut-AssignmentUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41E079912740F86B000C2759 /* Bayut-Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41E079BC2740F86D000C2759 /* Build configuration list for PBXNativeTarget "Bayut-Assignment" */;
+			buildPhases = (
+				41E0798E2740F86B000C2759 /* Sources */,
+				41E0798F2740F86B000C2759 /* Frameworks */,
+				41E079902740F86B000C2759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bayut-Assignment";
+			productName = "Bayut-Assignment";
+			productReference = 41E079922740F86B000C2759 /* Bayut-Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41E079A72740F86D000C2759 /* Bayut-AssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41E079BF2740F86D000C2759 /* Build configuration list for PBXNativeTarget "Bayut-AssignmentTests" */;
+			buildPhases = (
+				41E079A42740F86D000C2759 /* Sources */,
+				41E079A52740F86D000C2759 /* Frameworks */,
+				41E079A62740F86D000C2759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41E079AA2740F86D000C2759 /* PBXTargetDependency */,
+			);
+			name = "Bayut-AssignmentTests";
+			productName = "Bayut-AssignmentTests";
+			productReference = 41E079A82740F86D000C2759 /* Bayut-AssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41E079B12740F86D000C2759 /* Bayut-AssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41E079C22740F86D000C2759 /* Build configuration list for PBXNativeTarget "Bayut-AssignmentUITests" */;
+			buildPhases = (
+				41E079AE2740F86D000C2759 /* Sources */,
+				41E079AF2740F86D000C2759 /* Frameworks */,
+				41E079B02740F86D000C2759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41E079B42740F86D000C2759 /* PBXTargetDependency */,
+			);
+			name = "Bayut-AssignmentUITests";
+			productName = "Bayut-AssignmentUITests";
+			productReference = 41E079B22740F86D000C2759 /* Bayut-AssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41E0798A2740F86B000C2759 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					41E079912740F86B000C2759 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					41E079A72740F86D000C2759 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 41E079912740F86B000C2759;
+					};
+					41E079B12740F86D000C2759 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 41E079912740F86B000C2759;
+					};
+				};
+			};
+			buildConfigurationList = 41E0798D2740F86B000C2759 /* Build configuration list for PBXProject "Bayut-Assignment" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41E079892740F86B000C2759;
+			productRefGroup = 41E079932740F86B000C2759 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41E079912740F86B000C2759 /* Bayut-Assignment */,
+				41E079A72740F86D000C2759 /* Bayut-AssignmentTests */,
+				41E079B12740F86D000C2759 /* Bayut-AssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41E079902740F86B000C2759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E079A22740F86D000C2759 /* LaunchScreen.storyboard in Resources */,
+				41E0799F2740F86D000C2759 /* Assets.xcassets in Resources */,
+				41E0799D2740F86B000C2759 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E079A62740F86D000C2759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E079B02740F86D000C2759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41E0798E2740F86B000C2759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E0799A2740F86B000C2759 /* ViewController.swift in Sources */,
+				41E079962740F86B000C2759 /* AppDelegate.swift in Sources */,
+				41E079982740F86B000C2759 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E079A42740F86D000C2759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E079AD2740F86D000C2759 /* Bayut_AssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E079AE2740F86D000C2759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E079B72740F86D000C2759 /* Bayut_AssignmentUITests.swift in Sources */,
+				41E079B92740F86D000C2759 /* Bayut_AssignmentUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41E079AA2740F86D000C2759 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41E079912740F86B000C2759 /* Bayut-Assignment */;
+			targetProxy = 41E079A92740F86D000C2759 /* PBXContainerItemProxy */;
+		};
+		41E079B42740F86D000C2759 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41E079912740F86B000C2759 /* Bayut-Assignment */;
+			targetProxy = 41E079B32740F86D000C2759 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41E0799B2740F86B000C2759 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41E0799C2740F86B000C2759 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41E079A02740F86D000C2759 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41E079A12740F86D000C2759 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41E079BA2740F86D000C2759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41E079BB2740F86D000C2759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41E079BD2740F86D000C2759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W725KQUU2Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bayut-Assignment/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ali.Bayut-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41E079BE2740F86D000C2759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W725KQUU2Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bayut-Assignment/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ali.Bayut-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		41E079C02740F86D000C2759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W725KQUU2Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ali.Bayut-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bayut-Assignment.app/Bayut-Assignment";
+			};
+			name = Debug;
+		};
+		41E079C12740F86D000C2759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W725KQUU2Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ali.Bayut-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bayut-Assignment.app/Bayut-Assignment";
+			};
+			name = Release;
+		};
+		41E079C32740F86D000C2759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W725KQUU2Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ali.Bayut-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bayut-Assignment";
+			};
+			name = Debug;
+		};
+		41E079C42740F86D000C2759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W725KQUU2Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ali.Bayut-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bayut-Assignment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41E0798D2740F86B000C2759 /* Build configuration list for PBXProject "Bayut-Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41E079BA2740F86D000C2759 /* Debug */,
+				41E079BB2740F86D000C2759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41E079BC2740F86D000C2759 /* Build configuration list for PBXNativeTarget "Bayut-Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41E079BD2740F86D000C2759 /* Debug */,
+				41E079BE2740F86D000C2759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41E079BF2740F86D000C2759 /* Build configuration list for PBXNativeTarget "Bayut-AssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41E079C02740F86D000C2759 /* Debug */,
+				41E079C12740F86D000C2759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41E079C22740F86D000C2759 /* Build configuration list for PBXNativeTarget "Bayut-AssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41E079C32740F86D000C2759 /* Debug */,
+				41E079C42740F86D000C2759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41E0798A2740F86B000C2759 /* Project object */;
+}
