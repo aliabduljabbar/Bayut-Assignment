@@ -29,7 +29,11 @@ final class ClassifiedDetailsViewController: UIViewController, StoryboardInstant
     }
 
     private func bind(to viewModel: ClassifiedDetailsViewModel) {
-        viewModel.classifiedImage.observe(on: self) { [weak self] in self?.classifiedImageView.image = $0.flatMap(UIImage.init) }
+        viewModel.classifiedImage.observe(on: self) { [weak self] value in
+            if let image: UIImage? = value.flatMap(UIImage.init) {
+                self?.classifiedImageView.image = image
+            }
+        }
     }
     
     override func viewDidLayoutSubviews() {

@@ -32,14 +32,14 @@ final class ClassifiedsListItemCell: UITableViewCell {
     }
 
     private func classifiedImage(width: Int) {
-        classifiedImageView.image = nil
+        classifiedImageView.image = UIImage(named: "image-placeholder")
         guard let classifiedImagePath = viewModel.classifiedImagePath else { return }
 
         imageLoadTask = classifiedImagesRepository?.fetchImage(with: classifiedImagePath, width: width) { [weak self] result in
             guard let self = self else { return }
             guard self.viewModel.classifiedImagePath == classifiedImagePath else { return }
-            if case let .success(data) = result {
-                self.classifiedImageView.image = UIImage(data: data)
+            if case let .success(data) = result, let image = UIImage(data: data) {
+                self.classifiedImageView.image = image
             }
             self.imageLoadTask = nil
         }
