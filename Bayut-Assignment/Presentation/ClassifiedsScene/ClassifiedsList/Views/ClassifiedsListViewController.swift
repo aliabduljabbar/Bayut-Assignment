@@ -131,7 +131,7 @@ extension ClassifiedsListViewController: UISearchBarDelegate {
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         guard let searchText = searchBar.text, !searchText.isEmpty else { return }
         searchController.isActive = false
-        viewModel.didSearch(query: searchText)
+        viewModel.didFetch(query: searchText)
     }
 
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {

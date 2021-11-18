@@ -46,7 +46,7 @@ final class ClassifiedsSceneDIContainer {
     }
     
     func makeClassifiedsListViewModel(actions: ClassifiedsListViewModelActions) -> ClassifiedsListViewModel {
-        return DefaultClassifiedsListViewModel(searchClassifiedsUseCase: makeSearchClassifiedsUseCase(),
+        return DefaultClassifiedsListViewModel(fetchClassifiedsUseCase: makeSearchClassifiedsUseCase(),
                                           actions: actions)
     }
     
