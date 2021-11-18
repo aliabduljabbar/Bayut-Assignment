@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19206" systemVersion="21A559" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ClassifiedQueryEntity" representedClassName="ClassifiedQueryEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="query" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ClassifiedResponseEntity" representedClassName="ClassifiedResponseEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="createdAt" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="imageIds" optional="YES" attributeType="Transformable" customClassName="Array&lt;String&gt;"/>
+        <attribute name="imageUrls" optional="YES" attributeType="Transformable" customClassName="Array&lt;String&gt;"/>
+        <attribute name="imageUrlsThumbnails" optional="YES" attributeType="Transformable" customClassName="Array&lt;String&gt;"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="String"/>
+        <relationship name="classifiedsResponse" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ClassifiedsResponseEntity" inverseName="classifieds" inverseEntity="ClassifiedsResponseEntity"/>
+    </entity>
+    <entity name="ClassifiedsRequestEntity" representedClassName="ClassifiedsRequestEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="page" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="query" optional="YES" attributeType="String"/>
+        <relationship name="response" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ClassifiedsResponseEntity" inverseName="request" inverseEntity="ClassifiedsResponseEntity"/>
+    </entity>
+    <entity name="ClassifiedsResponseEntity" representedClassName="ClassifiedsResponseEntity" syncable="YES" codeGenerationType="class">
+        <relationship name="classifieds" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ClassifiedResponseEntity" inverseName="classifiedsResponse" inverseEntity="ClassifiedResponseEntity"/>
+        <relationship name="request" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ClassifiedsRequestEntity" inverseName="response" inverseEntity="ClassifiedsRequestEntity"/>
+    </entity>
+    <elements>
+        <element name="ClassifiedQueryEntity" positionX="-59.627685546875" positionY="-138.1905212402344" width="128" height="73"/>
+        <element name="ClassifiedResponseEntity" positionX="158.8341064453125" positionY="-1.29364013671875" width="128" height="149"/>
+        <element name="ClassifiedsRequestEntity" positionX="-216.0872802734375" positionY="31.43255615234375" width="128" height="88"/>
+        <element name="ClassifiedsResponseEntity" positionX="-53.5360107421875" positionY="30.92803955078125" width="128" height="59"/>
+    </elements>
+</model>
