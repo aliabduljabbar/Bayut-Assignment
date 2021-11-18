@@ -34,12 +34,11 @@
 		41189DFB2746612C00F8946E /* ClassifiedImagesRepositoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41189DFA2746612C00F8946E /* ClassifiedImagesRepositoryMock.swift */; };
 		41189DFE2746616400F8946E /* ClassifiedsListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41189DFD2746616400F8946E /* ClassifiedsListViewModelTests.swift */; };
 		41189E002746622700F8946E /* ClassifiedDetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41189DFF2746622700F8946E /* ClassifiedDetailsViewModelTests.swift */; };
+		41189E042746997100F8946E /* ClassifiedsSceneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41189E032746997100F8946E /* ClassifiedsSceneUITests.swift */; };
 		41E079962740F86B000C2759 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E079952740F86B000C2759 /* AppDelegate.swift */; };
 		41E0799F2740F86D000C2759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41E0799E2740F86D000C2759 /* Assets.xcassets */; };
 		41E079A22740F86D000C2759 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E079A02740F86D000C2759 /* LaunchScreen.storyboard */; };
 		41E079AD2740F86D000C2759 /* Bayut_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E079AC2740F86D000C2759 /* Bayut_AssignmentTests.swift */; };
-		41E079B72740F86D000C2759 /* Bayut_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E079B62740F86D000C2759 /* Bayut_AssignmentUITests.swift */; };
-		41E079B92740F86D000C2759 /* Bayut_AssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E079B82740F86D000C2759 /* Bayut_AssignmentUITestsLaunchTests.swift */; };
 		41E079C72740F8E6000C2759 /* AppAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E079C62740F8E6000C2759 /* AppAppearance.swift */; };
 		41E079C92740F8FA000C2759 /* AppConfigurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E079C82740F8FA000C2759 /* AppConfigurations.swift */; };
 		41E079CB2740F90E000C2759 /* AppFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E079CA2740F90E000C2759 /* AppFlowCoordinator.swift */; };
@@ -121,6 +120,7 @@
 		41189DFA2746612C00F8946E /* ClassifiedImagesRepositoryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassifiedImagesRepositoryMock.swift; sourceTree = "<group>"; };
 		41189DFD2746616400F8946E /* ClassifiedsListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassifiedsListViewModelTests.swift; sourceTree = "<group>"; };
 		41189DFF2746622700F8946E /* ClassifiedDetailsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassifiedDetailsViewModelTests.swift; sourceTree = "<group>"; };
+		41189E032746997100F8946E /* ClassifiedsSceneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassifiedsSceneUITests.swift; sourceTree = "<group>"; };
 		41E079922740F86B000C2759 /* Bayut-Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bayut-Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41E079952740F86B000C2759 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41E0799E2740F86D000C2759 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -129,8 +129,6 @@
 		41E079A82740F86D000C2759 /* Bayut-AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bayut-AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41E079AC2740F86D000C2759 /* Bayut_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bayut_AssignmentTests.swift; sourceTree = "<group>"; };
 		41E079B22740F86D000C2759 /* Bayut-AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bayut-AssignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		41E079B62740F86D000C2759 /* Bayut_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bayut_AssignmentUITests.swift; sourceTree = "<group>"; };
-		41E079B82740F86D000C2759 /* Bayut_AssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bayut_AssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		41E079C62740F8E6000C2759 /* AppAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAppearance.swift; sourceTree = "<group>"; };
 		41E079C82740F8FA000C2759 /* AppConfigurations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigurations.swift; sourceTree = "<group>"; };
 		41E079CA2740F90E000C2759 /* AppFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlowCoordinator.swift; sourceTree = "<group>"; };
@@ -287,6 +285,22 @@
 			path = Mocks;
 			sourceTree = "<group>";
 		};
+		41189E012746995000F8946E /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				41189E022746995200F8946E /* ClassifiedsScene */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		41189E022746995200F8946E /* ClassifiedsScene */ = {
+			isa = PBXGroup;
+			children = (
+				41189E032746997100F8946E /* ClassifiedsSceneUITests.swift */,
+			);
+			path = ClassifiedsScene;
+			sourceTree = "<group>";
+		};
 		41E079892740F86B000C2759 = {
 			isa = PBXGroup;
 			children = (
@@ -336,8 +350,7 @@
 		41E079B52740F86D000C2759 /* Bayut-AssignmentUITests */ = {
 			isa = PBXGroup;
 			children = (
-				41E079B62740F86D000C2759 /* Bayut_AssignmentUITests.swift */,
-				41E079B82740F86D000C2759 /* Bayut_AssignmentUITestsLaunchTests.swift */,
+				41189E012746995000F8946E /* Presentation */,
 			);
 			path = "Bayut-AssignmentUITests";
 			sourceTree = "<group>";
@@ -911,9 +924,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41E079B72740F86D000C2759 /* Bayut_AssignmentUITests.swift in Sources */,
 				41189DDE27465CAD00F8946E /* AccessibilityIdentifier.swift in Sources */,
-				41E079B92740F86D000C2759 /* Bayut_AssignmentUITestsLaunchTests.swift in Sources */,
+				41189E042746997100F8946E /* ClassifiedsSceneUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1077,6 +1089,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1107,6 +1120,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
