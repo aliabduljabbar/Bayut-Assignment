@@ -21,7 +21,7 @@ enum ClassifiedsListViewModelLoading {
 protocol ClassifiedsListViewModelInput {
     func viewDidLoad()
     func didLoadNextPage()
-    func didSearch(query: String)
+    func didFetch(query: String)
     func didCancelSearch()
     func didSelectItem(at index: Int)
 }
@@ -42,7 +42,7 @@ protocol ClassifiedsListViewModel: ClassifiedsListViewModelInput, ClassifiedsLis
 
 final class DefaultClassifiedsListViewModel: ClassifiedsListViewModel {
 
-    private let searchClassifiedsUseCase: FetchClassifiedsUseCase
+    private let fetchClassifiedsUseCase: FetchClassifiedsUseCase
     private let actions: ClassifiedsListViewModelActions?
 
     var currentPage: Int = 0
@@ -67,15 +67,16 @@ final class DefaultClassifiedsListViewModel: ClassifiedsListViewModel {
 
     // MARK: - Init
 
-    init(searchClassifiedsUseCase: FetchClassifiedsUseCase,
+    init(fetchClassifiedsUseCase: FetchClassifiedsUseCase,
          actions: ClassifiedsListViewModelActions? = nil) {
-        self.searchClassifiedsUseCase = searchClassifiedsUseCase
+        self.fetchClassifiedsUseCase = fetchClassifiedsUseCase
         self.actions = actions
     }
 
     // MARK: - Private
 
     private func appendPage(_ classifiedsPage: ClassifiedsPage) {
+        currentPage += 1
         pages = pages + [classifiedsPage]
 
         items.value = pages.classifieds.map(ClassifiedsListItemViewModel.init)
@@ -92,7 +93,7 @@ final class DefaultClassifiedsListViewModel: ClassifiedsListViewModel {
         self.loading.value = loading
         query.value = classifiedQuery.query
 
-        classifiedsLoadTask = searchClassifiedsUseCase.execute(
+        classifiedsLoadTask = fetchClassifiedsUseCase.execute(
             requestValue: .init(query: classifiedQuery, page: nextPage),
             cached: appendPage,
             completion: { result in
@@ -130,7 +131,7 @@ extension DefaultClassifiedsListViewModel {
              loading: .nextPage)
     }
 
-    func didSearch(query: String) {
+    func didFetch(query: String) {
         guard !query.isEmpty else { return }
         update(classifiedQuery: ClassifiedQuery(query: query))
     }
